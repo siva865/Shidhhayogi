@@ -66,7 +66,7 @@ const Navbar = () => {
   return (
     <nav className={`navbar ${isScrolled ? 'scrolled' : ''}`}>
       <div className="container">
-        <a href="#home" className="logo">SiddhaYogi</a>
+        <a href="#home" className="logo">Paromita Ghosal</a>
         
         <div className="menu-icon" onClick={toggleMenu}>
           {isOpen ? <FaTimes /> : <FaBars />}

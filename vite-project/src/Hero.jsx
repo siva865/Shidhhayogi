@@ -17,7 +17,7 @@ const Hero = () => {
             <h1 className="hero-title">
               Find Your <span>Inner Peace</span> With Yoga
             </h1>
-            <h2 className="hero-subtitle">With SiddhaYogi</h2>
+            <h2 className="hero-subtitle">With paromita Ghosal</h2>
             <p className="hero-description">
               Certified yoga instructor with 10+ years of experience helping students 
               achieve balance, flexibility, and mindfulness through traditional practices.

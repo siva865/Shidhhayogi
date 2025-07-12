@@ -5,7 +5,7 @@ import './project.css';
 
 const testimonials = [
   {
-    quote: "SiddhaYogi transformed my approach to yoga. His classes are the perfect balance of challenge and relaxation.",
+    quote: "paromita ghosal transformed my approach to yoga. His classes are the perfect balance of challenge and relaxation.",
     name: "Sarah Johnson",
     role: "Yoga Student",
     image: "https://randomuser.me/api/portraits/women/44.jpg"

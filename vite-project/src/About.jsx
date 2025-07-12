@@ -17,7 +17,7 @@ const About = () => {
             viewport={{ once: true }}
             className="about-text"
           >
-            <h3>About SiddhaYogi</h3>
+            <h3>About Paromita Ghosal</h3>
             <p>
               With over a decade of dedicated practice and teaching, I've helped hundreds of students 
               discover the transformative power of yoga. My approach combines traditional Hatha and 

@@ -8,7 +8,7 @@ const Footer = () => {
       <div className="container">
         <div className="footer-content">
           <div className="footer-logo">
-            <a href="#home">SiddhaYogi</a>
+            <a href="#home">Parmita Ghosal</a>
             <p>Creating beautiful, functional websites with modern technologies.</p>
           </div>
           
@@ -43,7 +43,7 @@ const Footer = () => {
         </div>
         
         <div className="footer-bottom">
-          <p>&copy; {new Date().getFullYear()} SiddhaYogi. All Rights Reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Ghosal. All Rights Reserved.</p>
         </div>
       </div>
     </footer>
