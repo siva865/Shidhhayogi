@@ -1,0 +1,157 @@
+.about {
+  background: #fff;
+}
+
+.about-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+}
+
+.about-text {
+  flex: 1;
+}
+
+.about-text h3 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  color: #4a6f7a;
+}
+
+.about-text p {
+  font-size: 1rem;
+  color: #6d9773;
+  margin-bottom: 15px;
+  line-height: 1.6;
+}
+
+.about-features {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+  margin: 30px 0;
+}
+
+.feature-item {
+  background: #f8f9fa;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.feature-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(109, 151, 115, 0.1);
+}
+
+.feature-icon {
+  width: 60px;
+  height: 60px;
+  margin: 0 auto 15px;
+  background: linear-gradient(90deg, #6d9773, #b3d0b8);
+  color: #fff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+}
+
+.feature-item h4 {
+  font-size: 1.1rem;
+  margin-bottom: 5px;
+  color: #4a6f7a;
+}
+
+.feature-item p {
+  font-size: 0.9rem;
+  margin: 0;
+  color: #6d9773;
+}
+
+.about-image {
+  flex: 1;
+  position: relative;
+}
+
+.image-border {
+  width: 350px;
+  height: 450px;
+  border-radius: 10px;
+  background: #f8f9fa;
+  position: relative;
+  margin: 0 auto;
+}
+
+.main-image {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  background: url('https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80') center/cover;
+  position: absolute;
+  top: -20px;
+  left: -20px;
+  border: 5px solid #fff;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.years-badge {
+  position: absolute;
+  bottom: -20px;
+  right: -20px;
+  width: 100px;
+  height: 100px;
+  background: linear-gradient(90deg, #6d9773, #b3d0b8);
+  color: #fff;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 10px 20px rgba(109, 151, 115, 0.3);
+}
+
+.years-badge span {
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+.years-badge p {
+  font-size: 0.7rem;
+  margin: 0;
+  text-align: center;
+}
+
+@media (max-width: 992px) {
+  .about-content {
+    flex-direction: column-reverse;
+  }
+  
+  .about-image, .about-text {
+    width: 100%;
+  }
+  
+  .image-border {
+    width: 300px;
+    height: 400px;
+    margin-bottom: 50px;
+  }
+}
+
+@media (max-width: 576px) {
+  .about-features {
+    grid-template-columns: 1fr;
+  }
+  
+  .image-border {
+    width: 250px;
+    height: 350px;
+  }
+  
+  .years-badge {
+    width: 80px;
+    height: 80px;
+  }
+}
